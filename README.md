@@ -1,2 +1,2 @@
 # Programming-For-Fintech-Blockchain
-Programming For Fintech &amp; Blockchain
+This repository is for Programming for Fintech Blockchain Course Assignmest
