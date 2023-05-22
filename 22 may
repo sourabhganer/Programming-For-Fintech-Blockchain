@@ -1,0 +1,28 @@
+Q DAG : A Merkle DAG is a DAG where each node has an identifier, and this is the result of hashing the node's contents — any opaque payload carried by the node and the list of identifiers of its children — using a cryptographic hash function like SHA256.
+Every node in a Merkle DAG is the root of a (sub)Merkle DAG itself, and this subgraph is contained in the parent DAG.
+
+Qhashgraph: Hashgraph doesn’t use mining., High scalability and high transactions per second.,The programming language includes LISP and Java.,100%‌ ‌efficient‌ .
+,It went public on August 24, 2018.,Introduced in 2007.,The application is Swirlds
+
+
+Q	SHA-256	                                                                            Keccak-256
+1.	SHA-256 is the implementation of the SHA-2 standard with a 256 bits key.	         Keccak256, a cryptographic function, is part of Solidity (SHA-3 Family).
+2.	The SHA-256 is weaker than Keccak-256.	                                                 The keccak-256 is much stronger compared to SHA-256.
+3.	Computes the SHA-256 hash of the input.                                                 	Computes the Keccak-256 hash of the input.
+4.	sha256(bytes memory) returns (bytes32).                                                           keccak256(bytes memory) returns (bytes32).
+5.	The Bitcoin blockchain makes extensive use of SHA-256,
+ including when identifying transaction hashes and when miners are performing proof-of-work mining.	     Ethereum uses Keccak-256 in a consensus engine called Ethash.
+ 
+ 
+Q BIP 32 and BIP 39 are two separate Bitcoin Improvement Proposals (BIPs) that are commonly used together to enhance the security and usability of Bitcoin wallets. Here are the details of each BIP:
+
+BIP 32 (Hierarchical Deterministic Wallets):
+BIP 32, also known as "Hierarchical Deterministic Wallets," proposes a standard method for generating and managing an unlimited number of Bitcoin addresses from a single seed. It introduces a hierarchical structure for wallets, allowing for the creation of child keys from a parent key in a deterministic manner. This means that the entire wallet can be restored from a single seed phrase, making it easier to back up and recover funds.
+*BIP 32 provides several advantages, including:
+
+>Simplified backup: A user only needs to back up the seed phrase instead of individual private keys.
+>Hierarchical structure: It enables the creation of multiple accounts, sub-accounts, and addresses from a single seed.
+>Privacy: Different Bitcoin addresses can be generated for each transaction, enhancing privacy by making it more difficult to link transactions to a single wallet.
+
+
+corda : Corda is an open-source blockchain platform designed for building decentralized applications (DApps) and enterprise solutions. It was developed by R3, a software company specializing in distributed ledger technology. Corda is specifically designed for use in business and financial applications, focusing on privacy, scalability, and interoperability
